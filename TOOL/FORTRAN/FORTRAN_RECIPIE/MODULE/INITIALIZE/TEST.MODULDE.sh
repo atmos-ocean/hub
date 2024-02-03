@@ -1,0 +1,57 @@
+#!/bin/bash
+
+MOD=TEST_MOD_VAR.F90
+SUB=TEST_MOD_SUB.F90
+MAIN=TEST_MOD_MAIN.F90
+EXE=$(basename $MAIN .F90).EXE
+
+cat <<EOF>$MOD
+MODULE MOD_VAR
+
+REAL,ALLOCATABLE,DIMENSION(:) :: X
+
+END MODULE MOD_VAR
+EOF
+
+cat <<EOF>$SUB
+SUBROUTINE MOD_SUB(N)
+USE MOD_VAR
+INTEGER,INTENT(IN)::N
+
+ALLOCATE(X(N))
+
+DO I=1,N
+X(I)=I
+END DO !I
+
+END SUBROUTINE MOD_SUB
+EOF
+
+cat <<EOF>$MAIN
+PROGRAM MOD_MAIN
+USE MOD_VAR
+
+N=2
+CALL MOD_SUB(N)
+
+DO I=1,N
+print *,X(I)
+END DO !I
+
+END PROGRAM MOD_MAIN
+EOF
+
+ifort $MOD $SUB $MAIN -o $EXE
+
+LOG=$(basename $0 .sh).LOG
+date -R >$LOG
+pwd    >>$LOG
+echo   >>$LOG
+ls -lh --time-style=long-iso $MAIN $SUB $MOD >> $LOG
+echo   >>$LOG
+
+$EXE |tee -a $LOG
+
+echo
+ls -lh --time-style=long-iso $MAIN $SUB $MOD $LOG
+echo

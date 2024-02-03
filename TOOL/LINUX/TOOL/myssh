@@ -1,0 +1,12 @@
+#!/bin/bash
+
+expect -c "
+set timeout 10
+spawn ssh hfront01.bosai.go.jp -l zamanda
+expect \"Authenticated with partial success.\" {
+        expect \"zamanda@hfront01.bosai.go.jp's password:\"
+        send \"Qms+7Ffcu4\n\"
+}
+interact
+"
+

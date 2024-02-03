@@ -1,0 +1,97 @@
+Sun, 05 Jan 2020 20:15:24 +0900
+calypso.bosai.go.jp
+/work05/manda/NCL/SVD
+-rwxrw-r-- 1 manda manda 493 2020-01-05 20:15 SVD.sh
+-rwxrw-r-- 1 manda manda 23K 2020-01-05 20:05 SVD.ncl
+
+READ Z500 RAW                                 |  2020-01-05 20:15:24 JST
+t1=0 YYYYMM=195801
+date_str=1958 01
+t2=695 YYYYMM=201512
+date_str=2015 12
+CHECK Z500 RAW                                |  2020-01-05 20:15:25 JST
+nt=58
+CHECK Z500 DETREND                            |  2020-01-05 20:15:25 JST
+nt=58
+
+Variable: hgt
+Type: float
+Total Size: 9688320 bytes
+            2422080 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 58] x [lat | 145] x [lon | 288]
+Coordinates: 
+            time: [   0..499656]
+            lat: [  90.. -90]
+            lon: [   0..358.75]
+Number Of Attributes: 4
+  _FillValue :	6.90002e-29
+  lev :	50000
+  code :	7
+  table :	200
+READ SST                                      |  2020-01-05 20:15:25 JST
+t1=1248 YYYYMM=195801
+date_str=1958 01
+t2=1943 YYYYMM=201512
+date_str=2015 12
+
+Variable: sst
+Type: float
+Total Size: 3716640 bytes
+            929160 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 58] x [lat | 89] x [lon | 180]
+Coordinates: 
+            time: [57708..78527]
+            lat: [88..-88]
+            lon: [ 0..358]
+Number Of Attributes: 11
+  long_name :	Monthly Means of Sea Surface Temperature
+  units :	degC
+  var_desc :	Sea Surface Temperature
+  level_desc :	Surface
+  statistic :	Mean
+  missing_value :	-9.96921e+36
+  actual_range :	( -1.8, 33.95 )
+  valid_range :	( -5, 40 )
+  dataset :	NOAA Extended Reconstructed SST V4
+  parent_stat :	Individual Values
+  _FillValue :	-9.96921e+36
+PREPROCESS Z500                               |  2020-01-05 20:15:34 JST
+PREPROCESS SST                                |  2020-01-05 20:15:34 JST
+
+Variable: NMS1
+Type: integer
+Total Size: 27104 bytes
+            6776 values
+Number of Dimensions: 1
+Dimensions and sizes:	[6776]
+Coordinates: 
+
+Variable: NMS2
+Type: integer
+Total Size: 9564 bytes
+            2391 values
+Number of Dimensions: 1
+Dimensions and sizes:	[2391]
+Coordinates: 
+SVDCOV_SV                                     |  2020-01-05 20:15:34 JST
+SVDCOV                                        |  2020-01-05 20:20:49 JST
+CONTRIBUTION                                  |  2020-01-05 20:26:13 JST
+HGT_SVC                                       |  2020-01-05 20:26:13 JST
+SST_SVC                                       |  2020-01-05 20:26:13 JST
+Z500_HOMOG_MAP                                |  2020-01-05 20:26:13 JST
+SST_HOMOG_MAP                                 |  2020-01-05 20:26:13 JST
+Z500_HETERO_MAP                               |  2020-01-05 20:26:13 JST
+SST_HOMOG_MAP                                 |  2020-01-05 20:26:13 JST
+PLOTTING                                      |  2020-01-05 20:26:13 JST
+SET COORDINATE                                |  2020-01-05 20:26:13 JST
+NORMALIZE TIME COEF                           |  2020-01-05 20:26:13 JST
+CONFIGURE PLOT RES                            |  2020-01-05 20:26:13 JST
+PLOT 1 : TIME COEF & SINGULAR VECTOR          |  2020-01-05 20:26:13 JST
+PLOT 2: TIME COEF. & HOMOG MAP                |  2020-01-05 20:26:14 JST
+PLOT 3: HETERO MAP                            |  2020-01-05 20:26:16 JST
+fatal:Variable (LOG) is undefined
+fatal:["Execute.c":8640]:Execute: Error occurred at or near line 559 in file SVD.ncl
+
+

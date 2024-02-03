@@ -1,0 +1,28 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]; then
+echo
+echo ERROR: NO ARUGMENT.
+echo USAGE: $(basename $0) DIR
+echo
+exit 1
+fi
+
+mkdir -vp "$@"
+CWD=$(pwd)
+
+for DIR in "$@"; do
+
+cd $DIR
+OFLE=0.README_$(basename $(pwd)).TXT
+
+touch $OFLE
+
+date -R >$OFLE
+pwd    >>$OFLE
+echo   >>$OFLE
+
+cd $CWD
+
+done
+

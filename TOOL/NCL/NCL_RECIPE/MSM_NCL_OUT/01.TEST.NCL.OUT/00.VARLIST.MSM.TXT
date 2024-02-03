@@ -1,0 +1,75 @@
+
+Variable: a
+Type: file
+filename:	0619
+path:	/work01/DATA/MSM/MSM-P/2022/0619.nc
+   file global attributes:
+      Conventions : CF-1.0
+      history : created by create_1daync_msm_p.rb  2022-06-20
+   dimensions:
+      lon = 241
+      lat = 253
+      p = 16
+      time = 8
+   variables:
+      float lon ( lon )
+         long_name :	longitude
+         units :	degrees_east
+         standard_name :	longitude
+
+      float lat ( lat )
+         long_name :	latitude
+         units :	degrees_north
+         standard_name :	latitude
+
+      float p ( p )
+         long_name :	pressure level
+         standard_name :	air_pressure
+         units :	hPa
+
+      float time ( time )
+         long_name :	time
+         standard_name :	time
+         units :	hours since 2022-06-19 00:00:00+00:00
+
+      double z ( time, p, lat, lon )
+         long_name :	geopotential height
+         units :	m
+         standard_name :	geopotential_height
+
+      double w ( time, p, lat, lon )
+         long_name :	vertical velocity in p
+         units :	Pa/s
+         standard_name :	lagrangian_tendency_of_air_pressure
+
+      short u ( time, p, lat, lon )
+         scale_factor :	0.006116208155
+         add_offset :	   0
+         long_name :	eastward component of wind
+         units :	m/s
+         standard_name :	eastward_wind
+
+      short v ( time, p, lat, lon )
+         scale_factor :	0.006116208155
+         add_offset :	   0
+         long_name :	northward component of wind
+         units :	m/s
+         standard_name :	northward_wind
+
+      short temp ( time, p, lat, lon )
+         scale_factor :	0.002613491379
+         add_offset :	255.4004974
+         long_name :	temperature
+         units :	K
+         standard_name :	air_temperature
+
+      short rh ( time, p, lat, lon )
+         scale_factor :	0.002293577883
+         add_offset :	  75
+         long_name :	relative humidity
+         units :	%
+         standard_name :	relative_humidity
+
+
+Done TEST.NCL.OUT.ncl
+

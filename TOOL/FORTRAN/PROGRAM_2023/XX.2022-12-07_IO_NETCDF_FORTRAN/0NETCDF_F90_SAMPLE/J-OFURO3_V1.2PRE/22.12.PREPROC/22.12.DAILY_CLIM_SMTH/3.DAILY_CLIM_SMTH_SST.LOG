@@ -1,0 +1,33 @@
+Sat, 25 Nov 2023 20:15:03 +0900
+Sat, 25 Nov 2023 20:20:15 +0900
+Sat, 25 Nov 2023 20:23:16 +0900
+ymdStrt=19880101
+ymdLast=20221231
+MMMMM filo=DAILY_CLIM_SMO_1988-2022_SST.nc
+yyyyddd(iStrt)=1988001
+yyyyddd(iLast)=2022365
+MMMMM READ SST
+MMMMM DAILY CLIMATOLOGY AT EACH GRID POINT.
+MMMMM SMOOTHING USING 2 HARMONICS.
+warning:ezfftf_n: 334934 input arrays contained missing values. No calculations performed on these arrays.
+warning:ezfftb_n: 334934 input arrays contained missing values. No calculations performed on these arrays.
+
+Variable: xClmDay_sm
+Type: float
+Total Size: 1517875200 bytes
+            379468800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[year_day | 366] x [latitude | 720] x [longitude | 1440]
+Coordinates: 
+            year_day: [1..366]
+            latitude: [-89.875..89.875]
+            longitude: [0.125..359.875]
+Number Of Attributes: 5
+  _FillValue :	-9999
+  long_name :	Daily Climatology: J-OFURO3 EMSST SST
+  units :	deg.C
+  information :	Smoothed daily climatological averages
+  smoothing :	FFT: 2 harmonics were retained.
+MMMMM CREATE NETCDF: CONVENIENCE USE SIMPLE METHOD.
+MMMMM OUTPUT:
+OUT= /work01/DATA/J-OFURO3/V1.2_PRE/DAILY_CLIM/DAILY_CLIM_SMO_1988-2022_SST.nc

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ulimit -s unlimited
+
+mpirun -np 4 metgrid.exe
+
+

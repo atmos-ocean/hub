@@ -1,0 +1,8 @@
+#!/bin/bash
+FLE=0.README.TXT
+
+if [ -f $FLE ]; then echo $FLE exists. DO NOTHING. ; exit 0; fi
+
+date -R > $FLE
+echo   >> $FLE
+

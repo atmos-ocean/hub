@@ -1,0 +1,6 @@
+runname =RUNNAME
+indir =INPUT
+domain =d03
+wrfout =wrfout_d03_2017-07-03_12:00:00
+sdatetime =2017-07-05_00:00:00
+edatetime =2017-07-05_12:00:00

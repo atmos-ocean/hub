@@ -1,0 +1,9 @@
+Thu, 01 Oct 2020 11:41:36 +0900
+/work05/manda/WRF.POST/A1101/GRADS/02.R03/02.TAVE.EAVE.P
+
+-rw-rw-r-- 1 manda manda 105 2020-10-01 11:41 TEST_MOD_MAIN.F90
+-rw-rw-r-- 1 manda manda 123 2020-10-01 11:41 TEST_MOD_SUB.F90
+-rw-rw-r-- 1 manda manda  71 2020-10-01 11:41 TEST_MOD_VAR.F90
+
+   1.000000    
+   2.000000    

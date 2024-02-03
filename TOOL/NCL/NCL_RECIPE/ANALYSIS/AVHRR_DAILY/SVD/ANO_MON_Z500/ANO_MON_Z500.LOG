@@ -1,0 +1,206 @@
+Sun, 05 Jan 2020 21:55:58 +0900
+calypso.bosai.go.jp
+/work05/manda/NCL/ANO_MON_Z500
+-rwxrw-r-- 1 manda manda 508 2020-01-05 20:48 ANO_MON_Z500.sh
+-rwxrw-r-- 1 manda manda 5.6K 2020-01-05 21:55 ANO_MON_Z500.ncl
+
+mkdir: created directory `OUT_ANO_MON_Z500/'
+READ Z500 RAW                                 |  2020-01-05 21:55:58 JST
+CHECK Z500 RAW                                |  2020-01-05 21:55:59 JST
+nt=58
+OUTPUT: OUT_ANO_MON_Z500/Z500_195801
+OUTPUT: OUT_ANO_MON_Z500/Z500_195901
+OUTPUT: OUT_ANO_MON_Z500/Z500_196001
+OUTPUT: OUT_ANO_MON_Z500/Z500_196101
+OUTPUT: OUT_ANO_MON_Z500/Z500_196201
+OUTPUT: OUT_ANO_MON_Z500/Z500_196301
+OUTPUT: OUT_ANO_MON_Z500/Z500_196401
+OUTPUT: OUT_ANO_MON_Z500/Z500_196501
+OUTPUT: OUT_ANO_MON_Z500/Z500_196601
+OUTPUT: OUT_ANO_MON_Z500/Z500_196701
+OUTPUT: OUT_ANO_MON_Z500/Z500_196801
+OUTPUT: OUT_ANO_MON_Z500/Z500_196901
+OUTPUT: OUT_ANO_MON_Z500/Z500_197001
+OUTPUT: OUT_ANO_MON_Z500/Z500_197101
+OUTPUT: OUT_ANO_MON_Z500/Z500_197201
+OUTPUT: OUT_ANO_MON_Z500/Z500_197301
+OUTPUT: OUT_ANO_MON_Z500/Z500_197401
+OUTPUT: OUT_ANO_MON_Z500/Z500_197501
+OUTPUT: OUT_ANO_MON_Z500/Z500_197601
+OUTPUT: OUT_ANO_MON_Z500/Z500_197701
+OUTPUT: OUT_ANO_MON_Z500/Z500_197801
+OUTPUT: OUT_ANO_MON_Z500/Z500_197901
+OUTPUT: OUT_ANO_MON_Z500/Z500_198001
+OUTPUT: OUT_ANO_MON_Z500/Z500_198101
+OUTPUT: OUT_ANO_MON_Z500/Z500_198201
+OUTPUT: OUT_ANO_MON_Z500/Z500_198301
+OUTPUT: OUT_ANO_MON_Z500/Z500_198401
+OUTPUT: OUT_ANO_MON_Z500/Z500_198501
+OUTPUT: OUT_ANO_MON_Z500/Z500_198601
+OUTPUT: OUT_ANO_MON_Z500/Z500_198701
+OUTPUT: OUT_ANO_MON_Z500/Z500_198801
+OUTPUT: OUT_ANO_MON_Z500/Z500_198901
+OUTPUT: OUT_ANO_MON_Z500/Z500_199001
+OUTPUT: OUT_ANO_MON_Z500/Z500_199101
+OUTPUT: OUT_ANO_MON_Z500/Z500_199201
+OUTPUT: OUT_ANO_MON_Z500/Z500_199301
+OUTPUT: OUT_ANO_MON_Z500/Z500_199401
+OUTPUT: OUT_ANO_MON_Z500/Z500_199501
+OUTPUT: OUT_ANO_MON_Z500/Z500_199601
+OUTPUT: OUT_ANO_MON_Z500/Z500_199701
+OUTPUT: OUT_ANO_MON_Z500/Z500_199801
+OUTPUT: OUT_ANO_MON_Z500/Z500_199901
+OUTPUT: OUT_ANO_MON_Z500/Z500_200001
+OUTPUT: OUT_ANO_MON_Z500/Z500_200101
+OUTPUT: OUT_ANO_MON_Z500/Z500_200201
+OUTPUT: OUT_ANO_MON_Z500/Z500_200301
+OUTPUT: OUT_ANO_MON_Z500/Z500_200401
+OUTPUT: OUT_ANO_MON_Z500/Z500_200501
+OUTPUT: OUT_ANO_MON_Z500/Z500_200601
+OUTPUT: OUT_ANO_MON_Z500/Z500_200701
+OUTPUT: OUT_ANO_MON_Z500/Z500_200801
+OUTPUT: OUT_ANO_MON_Z500/Z500_200901
+OUTPUT: OUT_ANO_MON_Z500/Z500_201001
+OUTPUT: OUT_ANO_MON_Z500/Z500_201101
+OUTPUT: OUT_ANO_MON_Z500/Z500_201201
+OUTPUT: OUT_ANO_MON_Z500/Z500_201301
+OUTPUT: OUT_ANO_MON_Z500/Z500_201401
+OUTPUT: OUT_ANO_MON_Z500/Z500_201501
+CHECK Z500 ANO                                |  2020-01-05 21:56:26 JST
+nt=58
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_195801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_195901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_196901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_197901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_198901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_199901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_200901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_201001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_201101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_201201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_201301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_201401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON_Z500/Z500_ANO_201501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+
+Variable: hgt
+Type: float
+Total Size: 9688320 bytes
+            2422080 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 58] x [lat | 145] x [lon | 288]
+Coordinates: 
+            time: [   0..499656]
+            lat: [  90.. -90]
+            lon: [   0..358.75]
+Number Of Attributes: 4
+  _FillValue :	 0
+  lev :	50000
+  code :	7
+  table :	200
+
+Done ANO_MON_Z500.ncl
+
+

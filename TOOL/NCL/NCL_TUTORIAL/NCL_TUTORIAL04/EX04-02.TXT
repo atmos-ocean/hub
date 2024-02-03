@@ -1,0 +1,26 @@
+
+Variable: LHF
+Type: float
+Total Size: 80513280 bytes
+            20128320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[initial_time0_hours | 482] x [g0_lat_1 | 145] x [g0_lon_2 | 288]
+Coordinates: 
+            initial_time0_hours: [1515024..1866384]
+            g0_lat_1: [90..-90]
+            g0_lon_2: [ 0..358.75]
+Number Of Attributes: 14
+  sub_center :	241
+  center :	Japanese Meteorological Agency - Tokyo (RSMC)
+  long_name :	Latent heat flux
+  units :	W/m^2
+  _FillValue :	1e+20
+  level_indicator :	1
+  gds_grid_type :	0
+  parameter_table_version :	200
+  parameter_number :	121
+  forecast_time :	0
+  forecast_time_units :	hours
+  statistical_process_descriptor :	average of N forecast products; valid time of equal specified duration with all N products covering a continuous time span.
+  statistical_process_duration :	6 hours (beginning at reference time)
+  N :	( 120, 124 )

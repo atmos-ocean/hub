@@ -1,0 +1,61 @@
+
+Variable: f
+Type: file
+filename:	fcst_phy2m125.C.121_lhtfl.201201_201212
+path:	/work01/DATA/JRA55C/MON/SFC/FCT/fcst_phy2m125.C.121_lhtfl.201201_201212
+   file global attributes:
+   dimensions:
+      initial_time0_hours = 12
+      g0_lat_1 = 145
+      g0_lon_2 = 288
+   variables:
+      float LHTFL_GDS0_SFC_S130 ( initial_time0_hours, g0_lat_1, g0_lon_2 )
+         sub_center :	241
+         center :	Japanese Meteorological Agency - Tokyo (RSMC)
+         long_name :	Latent heat flux
+         units :	W/m^2
+         _FillValue :	1e+20
+         level_indicator :	1
+         gds_grid_type :	0
+         parameter_table_version :	200
+         parameter_number :	121
+         forecast_time :	0
+         forecast_time_units :	hours
+         statistical_process_descriptor :	average of N forecast products; valid time of equal specified duration with all N products covering a continuous time span.
+         statistical_process_duration :	6 hours (beginning at reference time)
+         N :	<ARRAY of 12 elements>
+
+      double initial_time0_hours ( initial_time0_hours )
+         long_name :	initial time
+         units :	hours since 1800-01-01 00:00
+
+      double initial_time0_encoded ( initial_time0_hours )
+         long_name :	initial time encoded as double
+         units :	yyyymmddhh.hh_frac
+
+      float g0_lat_1 ( g0_lat_1 )
+         long_name :	latitude
+         GridType :	Cylindrical Equidistant Projection Grid
+         units :	degrees_north
+         Dj :	1.25
+         Di :	1.25
+         Lo2 :	-1.25
+         La2 :	-90
+         Lo1 :	 0
+         La1 :	90
+
+      float g0_lon_2 ( g0_lon_2 )
+         long_name :	longitude
+         GridType :	Cylindrical Equidistant Projection Grid
+         units :	degrees_east
+         Dj :	1.25
+         Di :	1.25
+         Lo2 :	-1.25
+         La2 :	-90
+         Lo1 :	 0
+         La1 :	90
+
+      string initial_time0 ( initial_time0_hours )
+         long_name :	Initial time of first record
+         units :	mm/dd/yyyy (hh:mm)
+

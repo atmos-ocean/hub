@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/grads-2.2.1/lib
+
+export GADDIR=/usr/local/grads-2.2.1/data
+
+export GAUDPT=/usr/local/grads-2.2.1
+
+export GRADSHOME=/usr/local/grads-2.2.1
+
+export GADDIR=${GRADSHOME}/data
+
+export GASCRP=${GRADSHOME}/scripts
+
+
+${GRADSHOME}/bin/grads $1 $2 $3 $4 $5 $6 $7 $8 $9 

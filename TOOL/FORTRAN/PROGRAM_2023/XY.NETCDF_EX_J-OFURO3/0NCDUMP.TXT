@@ -1,0 +1,17 @@
+netcdf J-OFURO3_COR3_LHF_CLM_RUN_DAILY_1988 {
+dimensions:
+	time = 366 ;
+	lat = 720 ;
+	lon = 1440 ;
+variables:
+	float time(time) ;
+		time:units = "hours since 1800-01-01 00:00" ;
+	double lat(lat) ;
+		lat:units = "degrees_north" ;
+	double lon(lon) ;
+		lon:units = "degrees_east" ;
+	float LHF(time, lat, lon) ;
+		LHF:units = "W/m2" ;
+		LHF:_FillValue = -9999.f ;
+		LHF:missing_value = -9999.f ;
+}

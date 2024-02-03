@@ -1,0 +1,6 @@
+runname =K17.R11.05.05
+indir =/work05/manda/WRF.RESULT2//K17.R11_OUT/K17.R11.05.05
+domain =d03
+wrfout =wrfout_d03_2017-07-03_12:00:00
+sdatetime =2017-07-05_01:00:00
+edatetime =2017-07-05_13:00:00

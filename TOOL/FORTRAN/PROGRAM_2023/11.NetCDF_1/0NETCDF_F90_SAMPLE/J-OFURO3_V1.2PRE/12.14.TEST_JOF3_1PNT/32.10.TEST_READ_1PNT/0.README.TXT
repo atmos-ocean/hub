@@ -1,0 +1,46 @@
+Sun, 26 Nov 2023 15:03:34 +0900
+../12.12.PICKUP_1PNT/OUT_123_21 
+LHF/
+QA/
+QS/
+SST/
+TA10/
+WND/
+
+
+netcdf J-OFURO3_LHF_DAILY_123_21_1988 {
+dimensions:
+	time = UNLIMITED ; // (366 currently)
+	lon = 1 ;
+	lat = 1 ;
+variables:
+	float time(time) ;
+		time:standard_name = "time" ;
+		time:units = "hours since 1800-01-01 00:00}" ;
+		time:calendar = "standard" ;
+		time:axis = "T" ;
+	double lon(lon) ;
+		lon:standard_name = "longitude" ;
+		lon:long_name = "longitude" ;
+		lon:units = "degrees_east" ;
+		lon:axis = "X" ;
+	double lat(lat) ;
+		lat:standard_name = "latitude" ;
+		lat:long_name = "latitude" ;
+		lat:units = "degrees_north" ;
+		lat:axis = "Y" ;
+	float LHF(time, lat, lon) ;
+		LHF:long_name = "J-OFURO3 LHF Preliminary V1.4.1" ;
+		LHF:units = "W/m^2" ;
+		LHF:_FillValue = -9999.f ;
+		LHF:missing_value = -9999.f ;
+
+// global attributes:
+		:CDI = "Climate Data Interface version 1.9.10 (https://mpimet.mpg.de/cdi)" ;
+		:Conventions = "CF-1.6" ;
+		:history = "Sat Nov 25 19:02:19 2023: cdo -remapbil,lon=123_lat=21 /work01/DATA/J-OFURO3/V1.2_PRE/HOURS.SINCE.1800-01-01/LHF/J-OFURO3_LHF_HR_V1.4.1_DAILY_1988_18000101.nc OUT_123_21/LHF/J-OFURO3_LHF_DAILY_123_21_1988.nc\n",
+			"Sat Nov 25 15:12:35 2023: ncap2 -O -s @units=\"hours since 1800-01-01 00:00}\";time=udunits(time,@units);time@units=@units /work01/DATA/J-OFURO3/V1.2_PRE/LHF/J-OFURO3_LHF_HR_V1.4.1_DAILY_1988.nc /work01/DATA/J-OFURO3/V1.2_PRE/HOURS.SINCE.1800-01-01/LHF/J-OFURO3_LHF_HR_V1.4.1_DAILY_1988_18000101.nc" ;
+		:NCO = "netCDF Operators version 5.1.9 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco, Citation = 10.1016/j.envsoft.2008.03.004)" ;
+		:units = "hours since 1800-01-01 00:00}" ;
+		:CDO = "Climate Data Operators version 1.9.10 (https://mpimet.mpg.de/cdo)" ;
+}

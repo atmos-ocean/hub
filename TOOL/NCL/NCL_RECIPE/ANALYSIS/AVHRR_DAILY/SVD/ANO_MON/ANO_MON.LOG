@@ -1,0 +1,205 @@
+Sun, 05 Jan 2020 22:58:55 +0900
+calypso.bosai.go.jp
+/work05/manda/NCL/ANO_MON
+-rwxrw-r-- 1 manda manda 508 2020-01-05 20:48 ANO_MON.sh
+-rwxrw-r-- 1 manda manda 6.5K 2020-01-05 22:58 ANO_MON.ncl
+
+READ Z500 RAW                                 |  2020-01-05 22:58:55 JST
+
+Variable: hgt
+Type: float
+Total Size: 9688320 bytes
+            2422080 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 58] x [lat | 145] x [lon | 288]
+Coordinates: 
+            time: [   0..499656]
+            lat: [  90.. -90]
+            lon: [   0..358.75]
+Number Of Attributes: 3
+  lev :	50000
+  code :	7
+  table :	200
+
+Variable: hgt_ano
+Type: float
+Total Size: 9688320 bytes
+            2422080 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 58] x [lat | 145] x [lon | 288]
+Coordinates: 
+            time: [   0..499656]
+            lat: [  90.. -90]
+            lon: [   0..358.75]
+Number Of Attributes: 4
+  _FillValue :	 0
+  table :	200
+  code :	7
+  lev :	50000
+READ SST                                      |  2020-01-05 22:58:56 JST
+
+Variable: sst
+Type: float
+Total Size: 3716640 bytes
+            929160 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 58] x [lat | 89] x [lon | 180]
+Coordinates: 
+            time: [57708..78527]
+            lat: [88..-88]
+            lon: [ 0..358]
+Number Of Attributes: 11
+  long_name :	Monthly Means of Sea Surface Temperature
+  units :	degC
+  var_desc :	Sea Surface Temperature
+  level_desc :	Surface
+  statistic :	Mean
+  missing_value :	-9.96921e+36
+  actual_range :	( -1.8, 33.95 )
+  valid_range :	( -5, 40 )
+  dataset :	NOAA Extended Reconstructed SST V4
+  parent_stat :	Individual Values
+  _FillValue :	-9.96921e+36
+
+Variable: sst_ano
+Type: float
+Total Size: 3716640 bytes
+            929160 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 58] x [lat | 89] x [lon | 180]
+Coordinates: 
+            time: [57708..78527]
+            lat: [88..-88]
+            lon: [ 0..358]
+Number Of Attributes: 9
+  _FillValue :	-9.96921e+36
+  parent_stat :	Individual Values
+  dataset :	NOAA Extended Reconstructed SST V4
+  missing_value :	-9.96921e+36
+  statistic :	ANOMALY
+  level_desc :	Surface
+  var_desc :	Sea Surface Temperature
+  units :	degC
+  long_name :	SST ANOMALY FROM LONG-TERM MEAN
+PLOT ANOMALY                                  |  2020-01-05 22:59:05 JST
+OUTPUT: OUT_ANO_MON/ANO_195801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_195901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_196901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_197901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_198901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_199901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200601
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200701
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200801
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_200901
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_201001
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_201101
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_201201
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_201301
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_201401
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+OUTPUT: OUT_ANO_MON/ANO_201501
+warning:ContourPlotInitialize: 0.0 not currently supported as a missing value; expect inaccurate plot
+
+DONE PLOT ANOMALY                             |  2020-01-05 22:59:54 JST
+Done ANO_MON.ncl
+
+
