@@ -1,0 +1,12 @@
+SRC=WILCOXON_RANK_SUM_EX1.F90
+SRC=WILCOXON_RANK_SUM_EX2.F90
+SRC=WILCOXON_RANK_SUM_EX3.F90
+
+EXE=$(basename $SRC .F90).EXE
+
+rm -vf $EXE
+gfortran $SRC -o $EXE
+if [ ! -f $EXE ];then echo EEEEE COMPILE ERROR $SRC;exit 1; fi
+
+$EXE
+rm -vr $EXE

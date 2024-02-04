@@ -1,0 +1,24 @@
+(ins) > A = c(22, 11, 13, 13, 21, 19, 0, 3, 0, 16, 16, 18, 22, 27, 22, 23, 3, 18, 44, 45, 17, 27, 31, 25, 19, 30, 16, 52, 376, 19, 27, 68, 18, 0)
+(ins) > B = c(23, 15, 116, 87, 18, 95, 52, 17, 87, 22, 67, 12, 14, 33, 238, 33, 18, 16, 32, 24, 103, 20, 25, 21, 88, 55, 0, 29, 106, 34, 98, 48, 55, 0, 14, 22, 190, 32, 66, 35, 45, 19, 413, 16, 0, 33, 37, 13, 17, 102, 33, 25, 36, 12, 0, 57, 174, 40, 83, 21, 18, 8, 47, 31, 0, 155)
+(ins) > wilcox.test(A,B)
+
+        Wilcoxon rank sum test with continuity correction
+
+data:  A and B
+W = 746.5, p-value = 0.006326
+alternative hypothesis: true location shift is not equal to 0
+
+
+A=c(13.8, 10.2, 4.6, 10.0, 4.2, 16.1, 14.4, 4.9, 7.7, 11.4)
+B=c(3.3, 2.6, 4.0, 4.7, 1.9, 2.9, 4.7, 5.3, 4.3, 3.0, 2.0)
+wilcox.test(A,B)
+(ins) > wilcox.test(A,B)
+
+        Wilcoxon rank sum test with continuity correction
+
+data:  A and B
+W = 102, p-value = 0.001055
+alternative hypothesis: true location shift is not equal to 0
+
+ 警告メッセージ: 
+ wilcox.test.default(A, B) で:  cannot compute exact p-value with ties
